@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href='images/styles.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="images/my-script.js"></script>
+</head>
+<body>
+
+<div class="header">
+
+
+ <h1>Shraddha Nand Shah</h1>
+  <p><b id="person-description"></b></p>
+  <p><b id="person-location"></b></p>
+
+</div>
+ <!-- href="images/profile.html"  -->
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a id="about-link">Portfolio</a>
+  <a href="https://drive.google.com/file/d/1-eXlZ7ykOvoDC5b9CoTQcnNVAT7bm5E5/view?usp=share_link">Resume</a>
+	<a href="https://auth.geeksforgeeks.org/user/shraddha_nand/" class="right">GFG</a>
+	<a href="https://leetcode.com/snshah2014/" class="right">Leetcode</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About</h2>
+    <div class="fakeimg_dontneed" style="height:180px;">
+	<center>
+		<img src="images/user2.jpeg" alt="Center align image inside div using html and css" style="width:128px;height:128px;border-radius:50%;"/></div>
+  </center>
+	<p id="person-about"></p>
+    <h3>Notification</h3>
+    <p id="highlight"></p>
+		<!-- Define the template -->
+		<template id="panel-template">
+			<div class="fakeimg_dontneed panel-description" style="height:60px;" ><a class="panel-link" href="https://task-manager-webui.herokuapp.com/">Task-Manager-Application</a><p class="panel-short"></p></div><br>
+		</template>
+	  <div id="panel-list"></div>
+
+		<div class="fakeimg_dontneed" style="height:60px;">
+	    <img src="https://counter.digits.net/?counter={51af3cf5-b853-7ba4-d50b-597c5aa1878c}&template=simple" alt="Hit Counter by Digits" border="0"  />
+		 hits according to <a href="https://www.digits.net" target="_blank">Web Counter</a>
+	 </div>
+	</div>
+  <div class="main">
+    <h2>Projects:</h2>
+		<!-- Define the template -->
+		<template id="project-template">
+	    <h5 class="project-title"></h5>
+	    <div class="fakeimg_dontneed project-description" style="height:100px;"></div>
+	    <p class="project-skills"></p>
+	    <p class="project-addition"></p>
+			<i class="fa fa-globe" aria-hidden="true"></i> <a class="project-link"></a>
+			<i class="fa fa-github"> <a class="project-github"></i></a>
+		</template>
+
+		<!-- Display the people -->
+		<div id="project-list"></div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Shraddha Nand Shah</h2>
+  <p>snshah2014@gmail.com mob:+91-7987255378</p>
+</div>
+
+</body>
+</html>
